@@ -6,7 +6,29 @@ export const FlexCenter = styled.div`
   align-items: baseline;
   column-gap: 10px;
   margin-top: 170px;
-  padding: 0 580px;
+  padding: 0 400px;
+  @media (max-width: 1700px){
+    padding:0 220px;
+  }
+  @media (max-width: 1200px){
+    padding:0 150px;
+  }
+`
+
+export const FlexCenterImg = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  column-gap: 10px;
+  padding: 0 400px;
+  border-radius: 50%;
+  @media (max-width: 1700px){
+    padding:0 220px;
+    margin-top: 50px;
+  }
+  @media (max-width: 1200px){
+    padding:0 150px;
+  }
 `
 
 export const Horizontal = styled.div`
