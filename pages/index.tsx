@@ -1,4 +1,4 @@
-import HomePage from '../../my-portfolio/src/components/templates/Home/index'
+import HomePage from '../src/components/templates/Home/index'
 
 export default function Home() {
   return (
