@@ -6,12 +6,7 @@ import * as S from './styles'
 const About = () => {
   return (
     <>
-      <S.FlexCenter
-        style={{
-          marginTop: '-60px',
-          justifyContent: 'center',
-          borderRadius: '50%'
-        }}
+      <S.FlexCenterImg
         id="about"
       >
         <img
@@ -21,7 +16,7 @@ const About = () => {
           height={300}
           style={{ borderRadius: '50%' }}
         />
-      </S.FlexCenter>
+      </S.FlexCenterImg>
       <S.FlexCenter style={{ marginTop: '20px' }}>
         <S.Color>01.</S.Color>
         <S.Title>About Me</S.Title>
