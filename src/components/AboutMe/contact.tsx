@@ -21,7 +21,6 @@ const contact = () => {
         style={{
           marginTop: '30px',
           paddingBottom: '30px',
-          justifyContent: 'center'
         }}
       >
         <Button
@@ -29,7 +28,7 @@ const contact = () => {
           size="large"
           href="mailto:abner.09.martins@gmail.com"
         >
-          Contactar Me
+          Contactar
         </Button>
       </S.FlexCenter>
     </>
