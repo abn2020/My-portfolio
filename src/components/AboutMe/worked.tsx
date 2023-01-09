@@ -57,12 +57,12 @@ function VerticalTabs() {
         <S.Title>Where I’ve Worked</S.Title>
         <S.Horizontal />
       </S.FlexCenter>
+      <S.FlexCenter style={{ justifyContent: 'center', marginTop: '0' }}>
       <Box
         sx={{
           flexGrow: 1,
           display: 'flex',
           height: 224,
-          padding: '0px 500px'
         }}
       >
         <Tabs
@@ -263,6 +263,7 @@ function VerticalTabs() {
           </span>
         </TabPanel>
       </Box>
+    </S.FlexCenter>
     </>
   )
 }
